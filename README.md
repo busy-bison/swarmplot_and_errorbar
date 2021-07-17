@@ -59,7 +59,7 @@ swarmplot_and_errorbar.show()
 ```
 ![e2](https://user-images.githubusercontent.com/87290343/126040508-74ec4f7e-bcc3-465f-b0ce-126f07eb8b03.png)
 
-Note: Sometimes the order of the hues differs from the result returened by original ```seaborn.swarmplot``` as in this example ("Yes" appears first in the original result).
+Note: As in this example, sometimes the order of the labels or hues differs from the result returened by calling ```seaborn.swarmplot``` directly ("Yes" appears first). You can customize these orders by setting *order* and *hue_order* in the parameter *swarmplot_kwargs*.
 
 ```python
 swarmplot_and_errorbar.plot(x = "tip", y = "time", data = data, hue = "sex", swarmplot_kwargs = {"orient": "h"}, errorbar_kwargs = {"color": "g"})
