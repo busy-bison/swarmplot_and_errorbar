@@ -28,7 +28,7 @@ Return the plotted figure. Return None if called before plotting.
 ### swarmplot_and_errorbar.get_ax
 Return the plotted axis. Return None if called before plotting.
 
-### swarmplot_and_errorbar.get_table
+### swarmplot_and_errorbar.get_result
 Return the table (pd.DataFrame) describing mean values, errors, and the number of samples in each category. Return None if called before plotting.
 
 ## Example
