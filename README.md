@@ -48,7 +48,7 @@ swarmplot_and_errorbar.show()
 ```python
 swarmplot_and_errorbar.get_result()
 ```
-| | mean | SE | n |
+| | mean | error | n |
 | ---: | ---: | ---: | ---: |
 | Dinner | 3.102670 | 0.108261 | 176 |
 | Lunch | 2.728088 | 0.146170 | 68 |
