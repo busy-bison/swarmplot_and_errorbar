@@ -1,5 +1,5 @@
 # swarmplot_and_errorbar
-Automatically draw seaborn.swarmplot and matplotlib.pyplot.errorbar on a single figure
+Draw seaborn.swarmplot and overlay matplotlib.pyplot.errorbar on it in the same figure
 
 ## Usage
 ### swarmplot_and_errorbar.plot
